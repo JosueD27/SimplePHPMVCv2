@@ -26,7 +26,8 @@
             </div>
 
             <div class="footer">
-                Derechos Reservados 2018
+                Derechos Reservados 2020 <br/>
+                Clase de Negocios WEB UNCAH
             </div>
             {{foreach js_ref}}
                 <script src="{{uri}}"></script>
