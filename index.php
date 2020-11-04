@@ -99,13 +99,13 @@ case "programa":
       include_once "controllers/security/programa.control.php":
       mw_redirectToLogin($_SERVER["QUERY_STRING"]);
     die();
-    
-case "categorias"
+
+case "categorias":
     ($logged)?
       include_once "controllers/mnt/categorias.control.php":
       mw_redirectToLogin($_SERVER["QUERY_STRING"]);
     die();    
-case "categoria"
+case "categoria":
     ($logged)?
       include_once "controllers/mnt/categoria.control.php":
       mw_redirectToLogin($_SERVER["QUERY_STRING"]);
